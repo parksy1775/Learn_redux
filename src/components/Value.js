@@ -6,15 +6,10 @@ const propTypes = {
 };
 
 const defaultProps = {
-    number: 0
+    number: -1
 };
 
 class Value extends Component {
-
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return(
             <div>
